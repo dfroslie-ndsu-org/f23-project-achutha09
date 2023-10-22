@@ -1,0 +1,103 @@
+id,fleet_average_age,airline_id,callsign,hub_code,iata_code,icao_code,country_iso2,date_founded,iata_prefix_accounting,airline_name,country_name,fleet_size,status
+13133,10.9,1,AMERICAN,DFW,AA,AAL,US,1934,1,American Airlines,United States,963,active
+13134,17,2,DELTA,ATL,DL,DAL,US,1928,6,Delta Air Lines,United States,823,active,scheduled
+13135,13.8,3,UNITED,ORD,UA,UAL,US,1931,16,United Airlines,United States,715,active,scheduled
+13136,12.3,4,SOUTHWEST,DAL,WN,SWA,UM,1967,526,Southwest Airlines Co.,United States Minor Outlying Islands,712,active
+13137,6.9,5,CHINA SOUTHERN,CAN,CZ,CSN,CN,2004,784,China Southern Airlines,China,498,active
+13138,8.4,6,CHINA EASTERN,PVG,MU,CES,CN,1988,781,China Eastern,China,407,active
+13139,11.1,7,SKYWEST,SLC,OO,SKW,UM,1972,302,SkyWest Airlines,United States Minor Outlying Islands,382,active
+13140,6.2,8,AIR CHINA,PEK,CA,CCA,CN,1988,999,Air China Limited,China,369,active
+13141,21.9,9,FEDEX,MEM,FX,FDX,US,1971,23,Federal Express,United States,367,active,scheduled
+13142,6.4,10,RYANAIR,STN,FR,RYR,IE,1985,224,Ryanair Ltd.,Ireland,353,active
+13143,13.2,11,JET LINK,None,XE,BTA,UM,None,None,Expressjet,United States Minor Outlying Islands,319,active
+13144,6.3,12,TURKISH,IST,TK,THY,TR,1933,235,THY - Turkish Airlines,Turkey,285,active
+13145,10.9,13,LUFTHANSA,FRA,LH,GEC,DE,1994,20,Lufthansa Cargo,Germany,276,active,scheduled
+13146,12.7,14,SPEEDBIRD,LHR,BA,BAW,GB,1974,125,British Airways,United Kingdom,265,active
+13147,6.1,15,EMIRATES,DXB,EK,UAE,AE,1985,176,Emirates,United Arab Emirates,249,active
+13148,17.5,16,UPS,SDF,5X,UPS,US,1907,406,UPS Airlines,United States,237,active
+13149,6.6,17,EASY,LGW,U2,EZY,GB,1995,None,Easyjet Airline Company Limited,United Kingdom,228,active
+13150,11.7,18,AIRFRANS,CDG,AF,AFR,FR,1933,57,Air France,France,226,active
+13151,8.7,19,JETBLUE,JFK,B6,JBU,US,2000,279,JetBlue,United States,218,active
+13152,9.5,20,ALL NIPPON,HND,NH,ANA,JP,1952,205,All Nippon Airways,Japan,206,active
+13153,5.7,21,QATARI,DOH,QR,QTR,QA,1994,157,Qatar Airways,Qatar,176,active
+13154,11.6,22,ENVOY,DFW,MQ,ENY,UM,2014,93,Envoy Air Inc.,United States Minor Outlying Islands,171,active
+13155,4.3,23,AEROFLOT,SVO,SU,AFL,RU,1923,555,Aeroflot,Russia,168,active
+13156,5.8,24,SHENZHEN AIR,SZX,ZH,CSZ,CN,1992,479,Shenzhen Airlines,China,165,active
+13157,25,25,AIR CANADA,YYZ,AC,ACA,CA,2001,14,Air Canada,Canada,164,active
+13158,7.4,26,TAM,CGH,JJ,TAM,BR,1976,957,TAM Linhas Aereas,Brazil,163,active
+13159,9,27,JAPANAIR,HND,JL,JAL,JP,1951,131,Japan Airlines,Japan,163,active
+13160,9.5,28,KOREANAIR,ICN,KE,KAL,KR,1962,180,Korean Air,South Korea,159,active
+13161,9.5,29,ALASKA,SEA,AS,ASA,US,1932,27,Alaska Airlines,United States,156,active
+13162,4.9,30,HAINAN,HAK,HU,CHH,CN,1989,880,Hainan Airlines,China,155,active
+13163,11.1,31,SCANDINAVIAN,CPH,SK,SAS,SE,1946,117,SAS,Sweden,155,active
+13164,5,32,INDONESIA,CGK,GA,GIA,ID,1949,126,Garuda,Indonesia,148,active
+13165,8.3,33,CATHAY,HKG,CX,CPA,HK,1946,160,Cathay Pacific,Hong Kong,143,active
+13166,5.9,34,BRICKYARD,IND,RW,RPA,US,2003,52,Republic Airlines,United States,139,active
+13167,7.8,35,SAUDIA,JED,SV,SVA,SA,1945,65,Saudi Arabian Airlines,Saudi Arabia,138,active
+13168,4.3,36,AZUL,VCP,AD,AZU,BR,2008,577,Azul Brazilian Airlines,Brazil,132,active
+13169,5.2,37,XIAMEN AIR,XMN,MF,CXA,CN,1984,731,Xiamen Airlines,China,132,active
+13170,7.8,38,GOL,CGH,G3,GLO,BR,2000,127
+
+,Brazil,127,active
+13171,16.8,39,JAZZ,YHZ,QK,JZA,CA,None,983,Jazz Aviation LP,Canada,127,active
+13172,5.8,40,ETIHAD,AUH,EY,ETD,AE,2003,607,Etihad Airways,United Arab Emirates,126,active
+13173,5.1,41,LAN,SCL,LA,LAN,CL,2004,45,Lan Airlines,Chile,126,active
+13174,7.5,42,FLAGSHIP,MSP,9E,FLG,UM,2013,430,Endeavor Air,United States Minor Outlying Islands,122,active
+13175,7.4,43,AIR SHUTTLE,PHX,YV,ASH,UM,1980,533,Mesa Airlines, Inc.,United States Minor Outlying Islands,122,active
+13176,9.2,44,Q LINK,TMW,QF,QFA,AU,1920,81,Qantas,Australia,118,active
+13177,5.7,45,LION INTER,CGK,JT,LNI,ID,1999,990,Lion Airlines,Indonesia,117,active
+13178,8.4,46,WESTJET,YYC,WS,WJA,CA,1995,838,WestJet,Canada,117,active
+13179,11.1,47,KLM,AMS,KL,KLM,NL,1919,74,KLM,Netherlands,116,active
+13180,8.1,48,SINGAPORE,SIN,SQ,SIA,SG,1972,618,SIA Cargo,Singapore,111,active
+13181,7.1,49,BLUE STREAK,DAY,OH,JIA,US,1979,320,PSA Airlines,United States,109,active
+13182,9.4,50,AIR INDIA,DEL,AI,AIC,IN,1948,98,Air India,India,108,active
+13183,4.8,51,SICHUAN,CTU,3U,CSC,CN,1986,876,Sichuan Airlines,China,107,active
+13184,4.7,52,IFLY,DEL,6E,IGO,IN,2006,312,Interglobe Aviation Ltd. dba Indigo,India,107,active
+13185,6.7,53,VUELING,BCN,VY,VLG,ES,2004,30,Vueling,Spain,105,active
+13186,10.5,54,ALITALIA,FCO,AZ,AZA,IT,1957,55,Alitalia,Italy,102,active
+13187,4.5,55,AVIANCA,BOG,AV,AVA,CO,1933,134,AVIANCA,Colombia,99,active
+13188,6.3,56,VIRGIN,BNE,VA,VAU,AU,2011,795,Virgin Australia,Australia,98,active
+13189,11.5,57,MERCURY,FWA,S5,TCF,UM,None,919,Shuttle America,United States Minor Outlying Islands,95,active
+13190,4.6,58,SHANDONG,TNA,SC,CDG,CN,1994,324,Shandong Airlines,China,93,active
+13191,6.7,59,JET AIRWAYS,BOM,9W,JAI,IN,1992,589,Jet Airways,India,92,active
+13192,5.2,60,CHINA DRAGON,TSN,GS,GCR,CN,2009,826,Tianjin Airlines,China,91,active
+13193,5.4,61,VIETNAM AIRLINES,SGN,VN,HVN,VN,1951,738,Vietnam Airlines,Vietnam,89,active
+13194,6.1,62,COPA,PTY,CM,CMP,PA,1947,230,COPA Airlines,Panama,88,active
+13195,5.7,63,SHANGHAI AIR,SHA,FM,CSH,CN,1985,774,Shanghai Airlines,China,86,active
+13196,8.1,64,AIR BERLIN,TXL,AB,BER,DE,1978,745,Air Berlin,Germany,85,active
+13197,15.8,65,AUSTRIAN,VIE,OS,AUA,AT,1957,257,Austrian,Austria,85,active
+13198,5.2,66,SPIRIT WINGS,FLL,NK,NKS,UM,1980,487,Spirit Airlines,United States Minor Outlying Islands,84,active
+13199,10.3,67,ASIANA,ICN,OZ,AAR,KR,1988,988,Asiana,South Korea,84,active
+13200,9.6,68,DYNASTY,TPE,CI,CAL,TW,1959,297,China Airlines,Chinese Taipei,83,active
+13201,21.6,69,ALLEGIANT,LAS,G4,AAY,UM,1997,268,Allegiant Air LLC,United States Minor Outlying Islands,83,active
+13202,4.3,70,MALAYSIAN,KUL,MH,MAS,MY,1971,232,Malaysia Airlines,Malaysia,83,active
+13203,5.6,71,ASIAN EXPRESS,KUL,AK,AXM,MY,1993,807,AirAsia Berhad dba AirAsia,Malaysia,82,active
+13204,9.5,72,THAI,BKK,TG,THA,TH,1959,217,Thai Airways International,Thailand,81,active
+13205,9.9,73,IBERIA,MAD,IB,IBE,ES,1927,75,IBERIA,Spain,78,active
+13206,11.7,74,JERSEY,EXT,BE,BEE,GB,2002,267,flybe,United Kingdom,63,historical/administration
+13207,5.9,75,ETHIOPIAN,ADD,ET,ETH,ET,1945,71,Ethiopian Airlines,Ethiopia,69,active
+13208,6.2,76,JETSTAR,MEL,JQ,JST,AU,2004,41,Jetstar Airways Pty Limited,Australia,69,active
+13209,4.2,77,WIZZ AIR,BUD,W6,WZZ,HU,2004,None,Wizz Air Hungary Ltd.,Hungary,68,active
+13210,13.8,78,AIR WISCONSIN,ATW,ZW,AWI,UM,1965,303,Air Wisconsin Airlines Corporation (AWAC),United States Minor Outlying Islands,68,active
+13211,12.9,79,SWISS,ZRH,LX,SWR,CH,2002,724,SWISS,Switzerland,67,active
+13212,14.4,80,WATERSKI,STL,AX,LOF,US,1982,414,Trans States Airlines, LLC,United States,65,active
+13213,6.8,81,EVA,TPE,BR,EVA,TW,1989,695,EVA Air,Chinese Taipei,65,active
+13214,9.3,82,SIBERIAN AIRLINES,DME,S7,SBI,RU,1992,421,S7 Airlines,Russia,65,active
+13215,7.2,83,AEROMEXICO,MEX,AM,AMX,MX,1972,139,Aeromexico,Mexico,64,active
+13216,6.4,84,INTERJET,TLC,4O,AIJ,MX,2005,837,Interjet,Mexico,63,active
+13217,8.9,85,COSTERA,MTY,5D,SLI,MX,2007,642,Aerolitoral S.A. de C.V.,Mexico,63,active
+13218,8.1,86,CAPITAL JET,HAK,JD,CBJ,CN,1995,898,Capital Airlines,China,63,active
+13219,5.2,87,SUNTURK,SAW,PC,PGT,TR,1990,624,Pegasus Airlines,Turkey,63,active
+13220,14.2,88,TJUMAVI,SGC,UT,UTA,RU,1991,298,UTair,Russia,63,active
+13221,8.6,89,TOMJET,LTN,BY,TOM,GB,1962,754,TUI Airways Limited,United Kingdom,58,active,scheduled
+13222,5.8,90,COMPASS,MSP,CP,CPZ,UM,2007,3,Compass Airlines LLC,United States Minor Outlying Islands,62,active
+13223,14.9,91,AIR PORTUGAL,LIS,TP,TAP,PT,1945,47,TAP Portugal,Portugal,62,active
+13224,6.3,92,REDWOOD,SFO,VX,VRD,US,2006,984,Virgin America,United States,62,active
+13225,4.5,93,VOLARIS,TLC,Y4,VOI,MX,2006,36,Volaris,Mexico,62,active
+13226,14.6,94,GERMAN WINGS,CGN,4U,GWI,DE,2002,51,Germanwings GmbH,Germany,61,active
+13227,21.9,95,CHANNEX,LBA,LS,EXS,GB,2002,949,Jet2.com Limited,United Kingdom,61,active,scheduled
+13228,4.7,96,PHILIPPINE,MNL,PR,PAL,PH,1941,79,Philippine Airlines,Philippines,59,active
+13229,3.5,97,AIR SPRING,SHA,9C,CQH,CN,2005,89,Spring Airlines Limited Corporation,China,58,active
+13230,7.7,98,FRONTIER FLIGHT,DEN,F9,FFT,UM,1994,422,Frontier Airlines, Inc.,United States Minor Outlying Islands,58,active
+13231,5,99,CEBU AIR,MNL,5J,CEB,PH,1996,203,Cebu Pacific Air,Philippines,57,active
+13232,3.7,100,NOR SHUTTLE,OSL,DY,NAX,NO,1993,328,Norwegian Air Shuttle A.S.,Norway,57,active
