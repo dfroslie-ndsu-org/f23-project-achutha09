@@ -1,12 +1,6 @@
-import csv
-import io
-
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
-import os
-import configparser
-from azure.storage.blob import BlobServiceClient
 
 # Load the first dataset for analysis
 data = pd.read_csv('Data/downloads/Airline Dataset Updated - v2.csv')
@@ -14,23 +8,6 @@ data = pd.read_csv('Data/downloads/Airline Dataset Updated - v2.csv')
 print("Dataset size:", data.shape)
 
 numeric_columns = data.select_dtypes(include=[np.number])
-
-def read_api_key(filepath):
-    try:
-        print("Current working directory:", os.getcwd())
-        config = configparser.ConfigParser()
-        config.read(filepath)
-        # Check if the 'CONNECTION-STRING' section exists in the file
-        if 'CONNECTION-STRING' in config:
-            # Check if the 'CONNECTION-STRING' key exists within the 'CONNECTION-STRING' section
-            if 'CONNECTION-STRING' in config['CONNECTION-STRING']:
-                return config['CONNECTION-STRING']['CONNECTION-STRING']
-            else:
-                raise KeyError('CONNECTION-STRING key not found in the configuration file.')
-        else:
-            raise KeyError('CONNECTION-STRING section not found in the configuration file.')
-    except FileNotFoundError:
-        raise Exception('CONNECTION-STRING configuration file not found.')
 
 print("Column names:", numeric_columns.columns)
 print("Data types:\n", numeric_columns.dtypes)

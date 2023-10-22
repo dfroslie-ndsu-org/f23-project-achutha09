@@ -10,7 +10,7 @@ container_name = 'fodeprojectstorage'
 directory_name = "AirlinesDataAviationStack"
 blob_file_name = "AviationData.csv"
 
-
+file_path = "../../api_key.config"
 def read_connection_string(filepath):
     try:
         print("Current working directory:", os.getcwd())
