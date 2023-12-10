@@ -62,14 +62,14 @@ The analysis plots answers to the above questions.
 The visual below describes the architecture of the project
 ![img_2.png](img_2.png)
 
-### Technologies Used
+### Tools and Technologies Used:
 
 Programming language: Python.
 Cloud service: Microsoft Azure cloud.
 Database: SQL database.
 Analyzing tool: Power BI, Azure data studio.
 Python Libraries: pandas, BlobServiceClient, requests, Kaggle, RequestsTransport, pyodbc, configparser.
-
+Integrated Development Environment: Intellij, Visual studio code, etc.
 ## Getting Started
 
 To get started with this project, follow these steps:
