@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # Load the first dataset for analysis
-data = pd.read_csv('Data/downloads/Airline Dataset Updated - v2.csv')
+data = pd.read_csv('../ingestion/Data/downloads/Airline Dataset Updated - v2.csv')
 #
 print("Dataset size:", data.shape)
 

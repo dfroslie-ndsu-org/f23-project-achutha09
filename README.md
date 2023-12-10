@@ -47,14 +47,16 @@ To enhance security, it is imperative to regularly update database credentials. 
 The data is read from the azure storage account which is transformed in the previous phase. 
 The data serving phase utilizes the datasets that are transformed in the data transformation phase and the business problems are answered in this phase which will help the users get the insights of the problem
 
-## Business Problem and solution
+## Business Problem 
 
 Conducting a comprehensive examination of airline performance metrics.
 Pinpointing destinations characterized by the most significant delays.
 Identifying regions with the highest frequency of airway usage.
 Highlighting airlines with the most extensive operational flight schedules.
 
+## Solution
 The analysis plots answers to the above questions.
+Running the Analysis.py [Analysis.py](src%2Fingestion%2FAnalysis.py) and ExploratoryAnalysis.py [ExploratoryAnalysis.py](src%2Fingestion%2FExploratoryAnalysis.py) and powerBi file [powerBiflightData.pbix](powerBiflightData.pbix) will answer the questions.
 
 
 ### Architecture Diagram

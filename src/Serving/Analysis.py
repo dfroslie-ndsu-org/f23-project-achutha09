@@ -2,7 +2,7 @@ import pandas as pd
 import seaborn as sns
 from matplotlib import pyplot as plt
 
-df = pd.read_csv('Data/downloads/Validated_Airline_Dataset.csv')
+df = pd.read_csv('../ingestion/Data/downloads/Validated_Airline_Dataset.csv')
 
 
 # Analysis examples
