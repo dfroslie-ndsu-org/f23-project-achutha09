@@ -56,7 +56,7 @@ Highlighting airlines with the most extensive operational flight schedules.
 
 ## Solution
 The analysis plots answers to the above questions.
-Running the Analysis.py [Analysis.py](src%2Fingestion%2FAnalysis.py) and ExploratoryAnalysis.py [ExploratoryAnalysis.py](src%2Fingestion%2FExploratoryAnalysis.py) and powerBi file [powerBiflightData.pbix](powerBiflightData.pbix) will answer the questions.
+Running the Analysis.py [Analysis.py](src%2Fingestion%2FAnalysis.py) and ExploratoryAnalysis.py [ExploratoryAnalysis.py](src%2Fingestion%2FExploratoryAnalysis.py) and powerBi file [powerBiflightData.pbix](src/Serving/powerBiflightData.pbix) will answer the questions.
 
 
 ### Architecture Diagram
