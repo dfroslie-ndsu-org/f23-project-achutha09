@@ -57,6 +57,27 @@ def read_connection_string(api_file_path):
         logging.info("File not found for connection string")
         raise Exception('CONNECTION-STRING configuration file not found.')
 
+def read_connection_string_db(api_file_path):
+        try:
+            logging.info("Trying to fetch the connection string")
+            config = configparser.ConfigParser()
+            config.read(api_file_path)
+            # Check if the 'CONNECTION-STRING' section exists in the file
+            if 'CONNECTION-STRING-DB' in config:
+                # Check if the 'CONNECTION-STRING-DB' key exists within the 'CONNECTION-STRING' section
+                if 'CONNECTION-STRING-DB' in config['CONNECTION-STRING-DB']:
+                    logging.info("connection string found")
+                    return config['CONNECTION-STRING-DB']['CONNECTION-STRING-DB']
+                else:
+                    logging.info("Connection string missing in the file")
+                    raise KeyError('CONNECTION-STRING key not found in the configuration file.')
+            else:
+                logging.info("Connection string missing in the file")
+                raise KeyError('CONNECTION-STRING section not found in the configuration file.')
+        except FileNotFoundError:
+            logging.info("File not found for connection string")
+            raise Exception('CONNECTION-STRING configuration file not found.')
+
 # method to fetch the access-key
 def read_access_key(filepath):
     try:
@@ -263,8 +284,7 @@ def create_table():
     try:
         table_creation_query = read_sql_query_from_file('../Transformation/query.sql')
 
-        connection_string = 'Driver={ODBC Driver 18 for SQL Server};Server=tcp:fode-sql-achutha.database.windows.net,1433;Database=fode-db-achutha;Uid=AdminServer-achutha;Pwd={Zeb170cr@ndsucs};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;'
-
+        connection_string = read_connection_string_db(api_file_path)
         with pyodbc.connect(connection_string) as conn:
             cursor = conn.cursor()
             cursor.fast_executemany = True  # Enable fast_executemany for improved performance
@@ -276,8 +296,7 @@ def create_table():
 
 def insert_chunk(chunk):
     try:
-        connection_string = 'Driver={ODBC Driver 18 for SQL Server};Server=tcp:fode-sql-achutha.database.windows.net,1433;Database=fode-db-achutha;Uid=AdminServer-achutha;Pwd={Zeb170cr@ndsucs};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;'
-
+        connection_string = read_connection_string_db(api_file_path)
         insert_query = "INSERT INTO databaseSchema.FlightInformation (airportName, airportCountryCode, countryName, airportContinent, continents, departureDate, arrivalAirport, flightStatus, nationality) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?);"
 
         with pyodbc.connect(connection_string) as conn:
@@ -294,7 +313,7 @@ def insert_chunk(chunk):
 
 def insert_chunk2(chunk):
     try:
-        connection_string = 'Driver={ODBC Driver 18 for SQL Server};Server=tcp:fode-sql-achutha.database.windows.net,1433;Database=fode-db-achutha;Uid=AdminServer-achutha;Pwd={Zeb170cr@ndsucs};Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;'
+        connection_string = read_connection_string_db(api_file_path)
 
         insert_query = (
             "INSERT INTO databaseSchema.AirlineInformation "
