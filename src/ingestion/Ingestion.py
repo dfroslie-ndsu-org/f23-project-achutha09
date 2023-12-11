@@ -15,7 +15,7 @@ from azure.core.pipeline.transport import RequestsTransport
 from azure.storage.blob import BlobServiceClient
 
 # Configure the logging settings
-logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+logging.basicConfig(filename='../logs/logfile.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 # defining variables
 container_name = 'fodeprojectstorage'
@@ -336,13 +336,13 @@ def connect_to_azure_sql():
             for future in futures_av:
                 future.result()
 
-            print("Data insertion completed")
+            logging.info("Data insertion completed for dataset one")
         # Submit tasks to the executor
             futures = [executor.submit(insert_chunk, chunk) for chunk in chunks]
             # Wait for all tasks to complete
             for future in futures:
                 future.result()
-        print("Data insertion completed")
+        logging.info("Data insertion completed for dataset two")
 
     except Exception as e:
         print(f"Error during data insertion: {e}")
