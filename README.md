@@ -80,5 +80,6 @@ To get started with this project, follow these steps:
  git clone https://github.com/dfroslie-ndsu-org/f23-project-achutha09.git
 2. Update the connection-string and api-access-key according to the specific ones as per the subscription and account credentials in the api_key.config file.
 3. Also need to update the database credentials in the api_key.config according to database that is targeted to be used.
+4. Logs are stored in logfile.log which is in logs folder src/logs/logfile.log.
 ```bash
 
