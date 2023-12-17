@@ -30,7 +30,7 @@ The project focuses on ingesting, processing, and cleaning two distinct dynamic 
 
 ## Data Ingestion
 
-The data ingestion process involves collecting data from the specified sources. Custom Python scripts have been developed to facilitate this step, catering to the specific data source types and formats. The primary goal is to fetch the data required for further processing. You can find the data ingestion scripts in the `src/ingestion/Data/DataSet1.py, src/ingestion/Data/DataSet2.py)` directory. The data ingestion is being done in the cloud azure storage account, container name fodeprojectstorage.
+The data ingestion process involves collecting data from the specified sources. Custom Python scripts have been developed to facilitate this step, catering to the specific data source types and formats. The primary goal is to fetch the data required for further processing. You can find the data ingestion scripts in the `src/ingestion/Data/DataSet1.py)` directory. The data ingestion is being done in the cloud azure storage account, container name fodeprojectstorage.
 
 ## Data Transformation
 
